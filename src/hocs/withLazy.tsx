@@ -2,7 +2,6 @@ import {ComponentType, ReactNode, ReactElement, lazy} from 'react';
 
 import { withSuspense } from "./withSuspense";
 
-
 type ComponentPromise<T = any> = Promise<{ default: ComponentType<T> }>;
 
 const retry = (
